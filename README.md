@@ -1,3 +1,5 @@
+![Descripción de la imagen](https://user-images.githubusercontent.com/38730778/214901429-9a5944da-6de9-484c-ae4c-5f4aa899793c.png)
+
 # Voyager 🌌
 
 **Estudiante de Ingeniería en Sistemas | Apasionado por el desarrollo web y la tecnología**
