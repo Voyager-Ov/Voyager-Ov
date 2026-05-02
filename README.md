@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:8B5CF6&height=220&section=header&text=Octavio%20Velo&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Systems%20Engineering%20Student&descAlignY=58&descSize=18" width="100%" alt="Octavio Velo - Full-Stack Developer" />
+  <img src="./assets/profile-header.svg" width="100%" alt="Octavio Velo - Full-Stack Developer" />
 
   <p>
     <a href="mailto:octavio.velo2024@gmail.com"><img src="https://img.shields.io/badge/Email-octavio.velo2024%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -89,7 +89,3 @@ Me motiva trabajar cerca del problema de negocio, entender el proceso y transfor
 
 - **Email:** [octavio.velo2024@gmail.com](mailto:octavio.velo2024@gmail.com)
 - **GitHub:** [github.com/Voyager-Ov](https://github.com/Voyager-Ov)
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:0EA5E9&height=120&section=footer" width="100%" alt="Footer" />
-</div>
