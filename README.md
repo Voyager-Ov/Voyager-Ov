@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Octavio Velo - Full-Stack Developer" />
+  <img src="./assets/profile-header-editorial-v2.svg" width="100%" alt="Octavio Velo - Full-Stack Developer" />
 
   <p>
     <a href="mailto:octavio.velo2024@gmail.com"><img src="https://img.shields.io/badge/Email-octavio.velo2024%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -43,45 +43,6 @@ Mi foco hoy está en convertir problemas operativos concretos en software usable
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-### Herramientas y workflow
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-
----
-
-## 📌 Proyectos destacados
-
-| Proyecto | Tipo | Qué resuelve | Stack / foco |
-|---|---|---|---|
-| [**Trattoria**](https://github.com/Voyager-Ov/Trattoria) | Sistema de gestión para rotisería/restaurante | Centraliza catálogo, pedidos, stock por insumos, caja, gastos, reportes y operación diaria con roles Admin/Empleado. | Next.js 16, React 19, TypeScript, Prisma, PostgreSQL, Firebase Auth, Tailwind, shadcn/ui |
-| [**Alquimia Lavandería**](https://github.com/Voyager-Ov/Alquimia_Lavanderia) | Landing + evolución a sistema de gestión | Proyecto orientado a digitalizar la operación de una lavandería: clientes, pedidos, servicios, cobros, reportes y experiencia responsive. | Angular, CSS, Bootstrap; evolución de producto con Next.js, PostgreSQL, Prisma y Firebase |
-| [**PARROT**](https://github.com/Voyager-Ov/PARROT) | Desktop app / automatización con IA | Prototipo de aplicación de escritorio para capturar flujos de trabajo, analizarlos y convertirlos en instrucciones reutilizables para agentes de IA. | Electron, Node.js, TypeScript, workflow capture, AI tooling |
-| [**Armando Medialunas**](https://github.com/Voyager-Ov/armando-medialunas) | Catálogo gastronómico / sistema comercial | Proyecto Next.js con carga SQL de menú, categorías, productos, variantes de precio e insumos para negocio gastronómico. | Next.js, PostgreSQL, SQL scripts, catálogo comercial |
-| [**DesafioTapi**](https://github.com/Voyager-Ov/DesafioTapi) | Desafío backend / cloud | Desarrollo backend orientado a procesamiento serverless, ejecución por fecha objetivo y persistencia de registros pendientes. | AWS, CDK, Lambda, DynamoDB, backend workflows |
-| **UniTrakr** | Producto académico con IA | Tracker académico para estudiantes UTN: análisis de planes de estudio, materias, correlativas y progreso académico usando IA/OCR. | Next.js, Gemini API, OCR, Firebase Auth, UX de dashboard |
-| [**Adivina Palabra IA**](https://github.com/Voyager-Ov/adivina-palabra-ia) / [**Impostor IA**](https://github.com/Voyager-Ov/impostor-IA) | Experimentos con IA | Juegos/prototipos para explorar interacción usuario-IA, lógica de juego y experiencias rápidas. | IA aplicada, frontend, prototipado |
-
----
-
-## 💼 Experiencia que me representa
-
-- Diseño modelos de dominio y bases de datos pensando en reglas reales de negocio, no solo en pantallas.
-- Desarrollo flujos completos: autenticación, roles, permisos, CRUDs, dashboards, reportes y despliegue.
-- Trabajo con clientes/usuarios reales para bajar necesidades operativas a funcionalidades concretas.
-- Uso IA como copiloto técnico para acelerar investigación, debugging, documentación, prototipado y generación de ideas, manteniendo criterio técnico sobre arquitectura y calidad.
-- Me interesa construir software simple de usar, pero sólido por debajo: buen modelo de datos, trazabilidad, validaciones y seguridad básica desde el inicio.
-
----
-
-## 🎯 Objetivo profesional
-
-Busco oportunidades donde pueda aportar como **Full-Stack Developer**, especialmente en equipos que construyan productos web, sistemas internos, SaaS, automatizaciones o herramientas con impacto operativo real.
-
-Me motiva trabajar cerca del problema de negocio, entender el proceso y transformar eso en software que ahorre tiempo, reduzca errores y mejore la toma de decisiones.
 
 ---
 
