@@ -77,15 +77,6 @@ Mi foco hoy está en convertir problemas operativos concretos en software usable
 
 ---
 
-## 📊 GitHub
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Voyager-Ov&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Voyager-Ov&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</div>
-
----
-
 ## 🎯 Objetivo profesional
 
 Busco oportunidades donde pueda aportar como **Full-Stack Developer**, especialmente en equipos que construyan productos web, sistemas internos, SaaS, automatizaciones o herramientas con impacto operativo real.
