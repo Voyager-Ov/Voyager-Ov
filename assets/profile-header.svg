@@ -1,79 +1,78 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Octavio Velo - Full-Stack Developer</title>
-  <desc id="desc">Modern product dashboard banner for Octavio Velo GitHub profile.</desc>
+  <title id="title">Octavio Velo portfolio header</title>
+  <desc id="desc">Editorial graphic portfolio style banner inspired by bold grids, halftone textures and archival design.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#070712"/>
-      <stop offset="0.48" stop-color="#111827"/>
-      <stop offset="1" stop-color="#1E1B4B"/>
-    </linearGradient>
-    <linearGradient id="a" x1="166" y1="63" x2="1072" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7C3AED"/>
-      <stop offset="0.52" stop-color="#06B6D4"/>
-      <stop offset="1" stop-color="#22C55E"/>
-    </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.035"/>
-    </linearGradient>
-    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="38"/>
-    </filter>
-    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" opacity="0.11"/>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" stroke="#1F2937" stroke-opacity="0.16" stroke-width="1"/>
     </pattern>
+    <pattern id="halftone" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#111111" opacity="0.9"/>
+    </pattern>
+    <pattern id="blueDots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.4" fill="#0F4CFF" opacity="0.65"/>
+    </pattern>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="36" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="36" fill="url(#dots)" opacity="0.75"/>
+  <rect width="1200" height="360" rx="30" fill="#F4F1EA"/>
+  <rect width="1200" height="360" rx="30" fill="url(#grid)"/>
 
-  <circle cx="225" cy="80" r="142" fill="#7C3AED" opacity="0.35" filter="url(#blur)"/>
-  <circle cx="1040" cy="300" r="180" fill="#06B6D4" opacity="0.24" filter="url(#blur)"/>
-  <circle cx="696" cy="41" r="90" fill="#22C55E" opacity="0.16" filter="url(#blur)"/>
+  <rect x="24" y="24" width="1152" height="312" rx="24" fill="#F8F5EE" stroke="#111111" stroke-opacity="0.08"/>
 
-  <path d="M63 279C170 206 241 227 338 177C453 118 522 50 658 96C794 142 854 254 1135 91" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-  <path d="M76 303C191 247 264 267 376 214C490 160 555 102 672 142C789 182 852 282 1120 150" stroke="url(#a)" stroke-width="1.3" stroke-linecap="round" opacity="0.28"/>
-
-  <g transform="translate(72 58)">
-    <rect width="496" height="244" rx="28" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.14"/>
-    <rect x="22" y="22" width="452" height="48" rx="18" fill="#020617" fill-opacity="0.62" stroke="#FFFFFF" stroke-opacity="0.08"/>
-    <circle cx="48" cy="46" r="6" fill="#EF4444"/>
-    <circle cx="70" cy="46" r="6" fill="#F59E0B"/>
-    <circle cx="92" cy="46" r="6" fill="#22C55E"/>
-    <text x="122" y="52" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">~/voyager/products</text>
-
-    <rect x="22" y="92" width="138" height="110" rx="22" fill="#020617" fill-opacity="0.54" stroke="#7C3AED" stroke-opacity="0.35"/>
-    <text x="44" y="128" fill="#C4B5FD" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">build</text>
-    <text x="44" y="162" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="800">SaaS</text>
-    <text x="44" y="184" fill="#94A3B8" font-family="Inter, Segoe UI, Arial" font-size="13">multi-tenant</text>
-
-    <rect x="180" y="92" width="138" height="110" rx="22" fill="#020617" fill-opacity="0.54" stroke="#06B6D4" stroke-opacity="0.35"/>
-    <text x="202" y="128" fill="#67E8F9" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">ship</text>
-    <text x="202" y="162" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="800">Web</text>
-    <text x="202" y="184" fill="#94A3B8" font-family="Inter, Segoe UI, Arial" font-size="13">Next + TS</text>
-
-    <rect x="338" y="92" width="136" height="110" rx="22" fill="#020617" fill-opacity="0.54" stroke="#22C55E" stroke-opacity="0.35"/>
-    <text x="360" y="128" fill="#86EFAC" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="700">solve</text>
-    <text x="360" y="162" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial" font-size="30" font-weight="800">Ops</text>
-    <text x="360" y="184" fill="#94A3B8" font-family="Inter, Segoe UI, Arial" font-size="13">real business</text>
+  <g opacity="0.95">
+    <text x="58" y="107" fill="#D90429" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-5">WELCOME</text>
+    <text x="58" y="174" fill="#D90429" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-5">TO MY</text>
+    <text x="58" y="241" fill="#D90429" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="74" font-weight="900" letter-spacing="-5">PORTFOLIO</text>
+    <rect x="47" y="42" width="8" height="226" fill="#D90429"/>
   </g>
 
-  <g transform="translate(625 82)">
-    <text x="0" y="42" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="-2.4">Octavio Velo</text>
-    <text x="2" y="84" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="650">Full-Stack Developer • UTN FRC</text>
-    <text x="2" y="122" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Construyo software real para operaciones reales.</text>
-
-    <rect x="2" y="156" width="110" height="36" rx="18" fill="#7C3AED" fill-opacity="0.16" stroke="#A78BFA" stroke-opacity="0.45"/>
-    <text x="27" y="179" fill="#EDE9FE" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="800">Next.js</text>
-
-    <rect x="124" y="156" width="124" height="36" rx="18" fill="#06B6D4" fill-opacity="0.14" stroke="#67E8F9" stroke-opacity="0.42"/>
-    <text x="148" y="179" fill="#CFFAFE" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="800">TypeScript</text>
-
-    <rect x="260" y="156" width="128" height="36" rx="18" fill="#22C55E" fill-opacity="0.13" stroke="#86EFAC" stroke-opacity="0.42"/>
-    <text x="282" y="179" fill="#DCFCE7" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="800">PostgreSQL</text>
-
-    <rect x="400" y="156" width="72" height="36" rx="18" fill="#F97316" fill-opacity="0.13" stroke="#FDBA74" stroke-opacity="0.42"/>
-    <text x="423" y="179" fill="#FFEDD5" font-family="Inter, Segoe UI, Arial" font-size="14" font-weight="800">AI</text>
+  <g filter="url(#softShadow)">
+    <rect x="430" y="57" width="314" height="178" rx="22" fill="#0F4CFF"/>
+    <rect x="430" y="57" width="314" height="178" rx="22" fill="url(#blueDots)" opacity="0.42"/>
+    <text x="463" y="122" fill="#F8F5EE" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="40" font-weight="900" letter-spacing="-1.5">NEW ARCHIVE</text>
+    <text x="463" y="160" fill="#F8F5EE" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="31" font-weight="900" letter-spacing="-1.2">FULL STACK</text>
+    <text x="463" y="194" fill="#D9E8FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Córdoba, Argentina ©2026</text>
   </g>
+
+  <g transform="translate(785 47)">
+    <rect width="190" height="214" rx="20" fill="#EFE7D8" stroke="#111111" stroke-opacity="0.12"/>
+    <path d="M26 70C55 32 86 105 114 67C143 28 164 78 174 54" stroke="#0F4CFF" stroke-width="20" stroke-linecap="round" opacity="0.62"/>
+    <path d="M24 128C53 91 84 163 113 126C141 87 163 136 173 112" stroke="#0F4CFF" stroke-width="20" stroke-linecap="round" opacity="0.62"/>
+    <text x="22" y="37" fill="#111111" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="29" font-weight="900" letter-spacing="-1.3">SIGHT+CODE</text>
+    <ellipse cx="66" cy="77" rx="17" ry="10" fill="#F8F5EE" stroke="#111111" stroke-width="2"/>
+    <circle cx="66" cy="77" r="4" fill="#111111"/>
+    <ellipse cx="129" cy="77" rx="17" ry="10" fill="#F8F5EE" stroke="#111111" stroke-width="2"/>
+    <circle cx="129" cy="77" r="4" fill="#111111"/>
+    <ellipse cx="66" cy="135" rx="17" ry="10" fill="#F8F5EE" stroke="#111111" stroke-width="2"/>
+    <circle cx="66" cy="135" r="4" fill="#111111"/>
+    <ellipse cx="129" cy="135" rx="17" ry="10" fill="#F8F5EE" stroke="#111111" stroke-width="2"/>
+    <circle cx="129" cy="135" r="4" fill="#111111"/>
+    <text x="25" y="185" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800">SYSTEMS • IA • WEB APPS</text>
+  </g>
+
+  <g transform="translate(1000 26)">
+    <rect width="154" height="308" rx="18" fill="#111111"/>
+    <rect width="154" height="308" rx="18" fill="url(#halftone)" opacity="0.78"/>
+    <text x="77" y="129" text-anchor="middle" fill="#F8F5EE" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="28" font-weight="900" letter-spacing="-1">VOYAGER</text>
+    <text x="77" y="163" text-anchor="middle" fill="#F8F5EE" font-family="Arial Black, Impact, Helvetica, sans-serif" font-size="26" font-weight="900" letter-spacing="-1">OV</text>
+    <rect x="32" y="184" width="90" height="7" rx="4" fill="#D90429"/>
+    <rect x="42" y="202" width="70" height="7" rx="4" fill="#0F4CFF"/>
+  </g>
+
+  <g transform="translate(430 258)">
+    <rect width="96" height="35" rx="17.5" fill="#111111"/>
+    <text x="48" y="23" text-anchor="middle" fill="#F8F5EE" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900">NEXT.JS</text>
+    <rect x="108" width="126" height="35" rx="17.5" fill="#D90429"/>
+    <text x="171" y="23" text-anchor="middle" fill="#F8F5EE" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900">TYPESCRIPT</text>
+    <rect x="246" width="130" height="35" rx="17.5" fill="#0F4CFF"/>
+    <text x="311" y="23" text-anchor="middle" fill="#F8F5EE" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900">POSTGRESQL</text>
+    <rect x="388" width="69" height="35" rx="17.5" fill="#14532D"/>
+    <text x="422" y="23" text-anchor="middle" fill="#F8F5EE" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900">AI</text>
+  </g>
+
+  <text x="59" y="300" fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" letter-spacing="0.2">Octavio Velo — Full-Stack Developer / UTN FRC</text>
+  <text x="59" y="322" fill="#111111" opacity="0.72" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">business systems · dashboards · automation · artificial intelligence</text>
 </svg>
